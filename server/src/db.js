@@ -10,6 +10,10 @@ const sequelize = new Sequelize(
   {
     logging: false,
     native: false,
+    dialect: "postgres", // Asegúrate de especificar el dialect como 'postgres'
+    dialectOptions: {
+      ssl: false,
+    },
   }
 );
 const basename = path.basename(__filename);
