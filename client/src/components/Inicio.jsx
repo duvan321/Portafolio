@@ -1,8 +1,6 @@
-import React, { useEffect } from "react";
-import { getPortafolio } from "../redux/action";
-import { useDispatch, useSelector } from "react-redux";
+import React from "react";
 import { Link } from "react-router-dom";
-import Diego from "../img/imagen4.gif";
+import Diego from "../img/Imagen4.gif";
 
 function Inicio() {
   const habilidades = [
