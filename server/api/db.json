@@ -1,0 +1,91 @@
+{
+"portafolio":[
+    {
+        "id":1,
+        "name":"Workflow",
+         "descripcion":"Esta es una aplicación de gestión de workflows desarrollada por un equipo de estudiantes de Soy Henry durante un mes. La aplicación está diseñada para empresas y ofrece a los usuarios la posibilidad de crear tareas y asignarlas a colaboradores, con un líder para supervisar. Los usuarios pueden explorar la página, obtener información sobre la empresa y comprar diferentes planes.Inicialmente, los usuarios pueden registrarse de forma gratuita con un plan básico que incluye hasta 5 colaboradores. Si desean agregar más colaboradores, tienen la opción de adquirir un plan más adecuado para sus necesidades. La página presenta secciones de 'Quiénes Somos', un vistazo a los desarrolladores y una sección de contacto para que los usuarios se comuniquen con la administración.La aplicación es versátil y puede utilizarse en cualquier ámbito de trabajo, ofreciendo una gestión segura de tareas y asignaciones. Además, es completamente responsive, lo que permite a los usuarios acceder desde cualquier dispositivo móvil. La aplicación ofrece una experiencia interactiva y personalizada para satisfacer las necesidades del cliente.",
+         "image":{
+             "url":"https://workflow-pf.vercel.app/",
+             "imagen":"https://res.cloudinary.com/dl33ozwc0/image/upload/v1696297316/workflow-assets/uwi7fxpzoxckwxvltaec.jpg",
+             "gitHub":"#",
+             "video":"https://www.youtube.com/watch?v=_1N5Cc__mgg"
+         }
+       
+    },
+    {
+        "id":2,
+        "name":"Drivers",
+         "descripcion":"He creado una aplicación que simplifica la gestión de conductores, permitiendo a los usuarios realizar varias tareas importantes. Al iniciar la aplicación, son recibidos con una página de inicio (landing page) que los lleva a todos los conductores en forma de tarjetas (cards). La aplicación presenta un menú de navegación (navbar) con varias opciones, como un formulario que permite crear más conductores, búsqueda por nombre y una visualización de todos los conductores, ya sean creados localmente o provistos por una API externa.",
+         "image":{
+             "url":"https://drivers-eta.vercel.app/",
+             "imagen":"https://images6.alphacoders.com/129/1294336.jpg",
+             "gitHub":"https://github.com/duvan321/DriversDeploy",
+             "video":"https://www.youtube.com/watch?v=-kjIliT7Sho"
+
+         }
+       
+    },
+     {
+        "id":3,
+        "name":"Rick and morty",
+         "descripcion":"En esta aplicación que he creado, tienes la tarea de registrarte e iniciar sesión con un formulario que te lleva a una vista donde puedes buscar por ID a los personajes de Rick and Morty. También puedes seleccionar favoritos y mostrarlos en una vista de favoritos, así como eliminarlos. Además, tienes la opción de buscar personajes al azar y filtrar por ID y género.",
+         "image":{
+             "url":"#",
+             "imagen":"https://www.xtrafondos.com/wallpapers/resized/rick-y-morty-escapando-de-portal-9235.jpg?s=large",
+             "gitHub":"https://github.com/duvan321/RICK_AND_MORTY",
+               "video":"#"
+         }
+       
+    },
+    {
+        "id":4,
+        "name":"Incrementa tus ventas",
+         "descripcion":"Este es un sitio web personal. La página principal cuenta con un menú de navegación que incluye enlaces a diferentes secciones como 'Inicio', 'Acerca de', 'Portafolio', 'Servicio' y 'Contacto'. La página principal también presenta un mensaje de bienvenida y una ilustración de onda. Otras secciones notables incluyen un portafolio de proyectos, testimonios de clientes y detalles sobre los servicios ofrecidos. El pie de página incluye información de contacto. Además, la página está diseñada para ser responsive y adaptarse a varios tamaños de pantalla",
+         "image":{
+             "url":"https://duvan321.github.io/Incrementa-tus-ventas/",
+             "imagen":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXnUzYYONGjf2nEmsu1fJ8W3mIPsmcWVmWkQFtew-5zgOfvQr6OL4C9TVnYzS-2-4zRE0&usqp=CAU",
+             "gitHub":"https://github.com/duvan321/Incrementa-tus-ventas",
+              "video":"#"
+         }
+       
+    },
+     {
+        "id":5,
+        "name":"netflix",
+         "descripcion":"Lo primero que podemos ver en esta aplicación es que podemos disfrutar de unas películas animadas con un link que me lleva a youtube, simulando que estamos en netflix.",
+         "image":{
+             "url":"http://duvan321.github.io/netflix/",
+             "imagen":"https://elceo.com/wp-content/uploads/2019/02/netflix_cine.jpg",
+             "gitHub":"https://github.com/duvan321/netflix",
+              "video":"#"
+         }
+       
+    },
+     {
+        "id":6,
+        "name":"Guia turistica",
+         "descripcion":"Esta página web sirve como una completa guía turística para San Andrés, una isla paradisíaca. Los visitantes encontrarán un menú de navegación que les proporciona acceso a una variedad de secciones, incluyendo 'Inicio', donde pueden ver una descripción general de lo que ofrece la página. Además, hay secciones dedicadas a 'Qué hacer', donde se detallan actividades y atracciones, así como información sobre los 'Mejores Hoteles', 'Mejores Hostales', un 'Blog de Viajes' y una sección para 'Compras'. El diseño de la página se enfoca en brindar a los usuarios la seguridad de saber qué esperar y cómo disfrutar al máximo de sus vacaciones en las hermosas islas de San Andrés",
+         "image":{
+             "url":"https://duvan321.github.io/guia-turistica-de-San-Andres/",
+             "imagen":"https://duvan321.github.io/guia-turistica-de-San-Andres/assets/speaker/sitio4.jpeg",
+             "gitHub":"https://github.com/duvan321/guia-turistica-de-San-Andres",
+             "video":"#"
+         }
+       
+    },
+     {
+        "id":7,
+        "name":"Videos infatiles",
+         "descripcion":"En esta página, los usuarios tienen acceso a una colección de videos animados. Cada video se presenta con opciones interactivas que permiten al usuario controlar la experiencia de visualización. Pueden realizar acciones como silenciar el audio, pausar la reproducción, ajustar el zoom, avanzar al siguiente video o retroceder, e incluso acelerar la reproducción. Estas características interactivas están habilitadas a través de funciones programadas en JavaScript, lo que permite a los usuarios disfrutar de una experiencia de visualización personalizada y a su propio ritmo",
+         "image":{
+             "url":"https://duvan321.github.io/videos-infantiles/",
+             "imagen":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXEd7xASvQVqJTWY2SAw1nwaMZnd_FDw46puMk5sbL7y4qNUSeWWiz-T6Z2VFgyk7Z7Sk&usqp=CAU",
+             "gitHub":"https://github.com/duvan321/videos-infantiles",
+             "video":"#"
+
+         }
+       
+    }
+
+]
+}
