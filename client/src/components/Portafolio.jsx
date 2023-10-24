@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { getPortafolio } from "../Redux/action";
+import { getPortafolio } from "../redux/action";
 import { useDispatch, useSelector } from "react-redux";
 
 function Portafolio() {

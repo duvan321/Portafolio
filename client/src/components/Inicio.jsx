@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { getPortafolio } from "../Redux/action";
+import { getPortafolio } from "../redux/action";
 import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import Diego from "../img/imagen4.gif";

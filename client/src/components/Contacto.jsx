@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import ContactImage from "../img/img.jpg"; // Reemplaza con la ruta correcta de tu imagen
-import { form } from "../Redux/action";
+import { form } from "../redux/action";
 import { useDispatch } from "react-redux";
 import validation from "./validation/validation";
 function Contacto() {
