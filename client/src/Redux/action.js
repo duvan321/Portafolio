@@ -4,7 +4,7 @@ import Swal from "sweetalert2";
 export const getPortafolio = () => {
   try {
     return async function (dispatch) {
-      const response = await axios.get("http://localhost:3002/portafolio/");
+      const response = await axios.get("/portafolio/");
       dispatch({
         type: "GET_PORTAFOLIO",
         payload: response.data,
@@ -17,7 +17,7 @@ export const getPortafolio = () => {
 export const form = (formData) => {
   return async function () {
     try {
-      await axios.post("http://localhost:3002/portafolio/contacto", formData);
+      await axios.post("/portafolio/contacto", formData);
       Swal.fire({
         title: "Envío de formulario exitoso",
         icon: "success",
