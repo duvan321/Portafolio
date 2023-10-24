@@ -7,7 +7,7 @@ import AcercaDeMi from "./components/Acerca";
 import Portafolio from "./components/Portafolio";
 import Contacto from "./components/Contacto";
 import axios from "axios";
-axios.defaults.baseURL = "portafolio-production-2d78.up.railway.app";
+axios.defaults.baseURL = "portafolio-production-2d78.up.railway.app/";
 function App() {
   const location = useLocation();
 
