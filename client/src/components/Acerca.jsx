@@ -2,7 +2,7 @@ import React from "react";
 
 function AcercaDeMi() {
   return (
-    <div className="bg-gray-300 p-8">
+    <div className="p-8">
       <h1 className="text-3xl font-bold">Acerca de Mí</h1>
 
       <p className="mt-4 text-lg">

@@ -41,7 +41,7 @@ function Contacto() {
   };
 
   return (
-    <div className="bg-gray-100">
+    <div className="">
       <div className="relative">
         <img
           src={ContactImage}

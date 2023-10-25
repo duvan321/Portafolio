@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { getPortafolio } from "../redux/action";
 import { useDispatch, useSelector } from "react-redux";
-
+import { Link } from "react-router-dom";
 function Portafolio() {
   const porta = useSelector((state) => state.portafolio);
   const dispatch = useDispatch();
@@ -9,39 +9,56 @@ function Portafolio() {
     dispatch(getPortafolio());
   }, []);
   return (
-    <div className="bg-gray-300 p-8">
+    <div className="p-8">
       <h1 className="text-3xl font-bold">Portafolio</h1>
 
       <div className="mt-6 grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
         {porta.map((proyecto, index) => (
-          <div key={index} className="bg-white p-4 rounded-lg shadow">
-            <img
-              src={proyecto.image.imagen} // Reemplaza con la ruta a la imagen del proyecto
-              alt={proyecto.name}
-              className="w-full h-40 object-cover rounded-lg"
-            />
+          <div key={index} className=" p-4 rounded-lg shadow">
+            <Link to={`/detail/${proyecto.id}`}>
+              <img
+                src={proyecto.image.imagen} // Reemplaza con la ruta a la imagen del proyecto
+                alt={proyecto.name}
+                title="Haz clic para obtener más detalles"
+                className="w-full h-40 object-cover rounded-lg transform hover:scale-110 transition-transform duration-300"
+              />
+            </Link>
             <h2 className="text-lg font-semibold mt-4">{proyecto.name}</h2>
-            <p className="text-gray-600 ">{proyecto.descripcion}</p>
+
             <div className="flex justify-between mt-2">
               <a
                 target="_blank"
                 href={proyecto.image.url} // Reemplaza con el enlace a la página del proyecto
-                className="text-blue-500 inline-block"
+                className="text-yellow-400 inline-block"
               >
                 Ver Página
               </a>
               <a
                 target="_blank"
                 href={proyecto.image.video} // Reemplaza con el enlace a la página del proyecto
-                className="text-blue-500 inline-block"
+                className="text-yellow-400 inline-block"
               >
-                Ver video
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  height="24"
+                  class="main-grid-item-icon"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                >
+                  <polygon points="23 7 16 12 23 17 23 7" />
+                  <rect height="14" rx="2" ry="2" width="15" x="1" y="5" />
+                </svg>
               </a>
               <a
                 target="_blank"
                 title="git-hub"
                 href={proyecto.image.gitHub} // Reemplaza con el enlace al repositorio del proyecto
-                className="text-blue-500 inline-block"
+                className="text-yellow-400 inline-block"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

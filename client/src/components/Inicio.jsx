@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Diego from "../img/Imagen4.gif";
+import { CSSTransition } from "react-transition-group";
 
 function Inicio() {
   const habilidades = [
@@ -13,10 +14,10 @@ function Inicio() {
     "Creatividad",
   ];
   return (
-    <div className="p-8s bg-gray-300">
+    <div className="p-8s">
       <div className=" flex flex-col md:flex-row items-center ">
         <div className="md:w-2/3 md:pl-4">
-          <h1 className="text-4xl font-bold text-center mb-2">
+          <h1 className="text-4xl text-yellow-400 font-bold text-center mb-2">
             Hola!, Soy Diego Patiño 👋
           </h1>
           <h2 className="text-xl text-center">Fullstack Developer</h2>
@@ -31,17 +32,21 @@ function Inicio() {
           </p>
         </div>
         <div className="md:w-1/3 flex justify-center items-center">
-          <img src={Diego} alt="Tu Foto de Perfil" className="w-100 h-100" />
+          <img
+            src={Diego}
+            alt="Tu Foto de Perfil"
+            className="w-100 h-100 animate-move-up-down"
+          />
         </div>
       </div>
       <div>
         <div>
-          <h3 className="text-2xl font-semibold text-center">
+          <h3 className="text-2xl text-yellow-400 font-semibold text-center">
             Habilidades Clave
           </h3>
-          <ul className="mt-2 grid grid-cols-1 md:grid-cols-2 gap-4">
+          <ul className="mt-5 grid grid-cols-1 md:grid-cols-2 gap-4">
             {habilidades.map((habilidad, index) => (
-              <li key={index} className="text-center">
+              <li key={index} className="text-center p-0">
                 {" "}
                 {/* Centrar elementos de la lista */}
                 {habilidad}
@@ -53,13 +58,13 @@ function Inicio() {
         <div className="mt-8 flex justify-center mb-12">
           <Link
             to="/portafolio"
-            className="btn-primary mr-4 hover:bg-blue-600 hover:text-white rounded-full transition duration-300 ease-in-out"
+            className="custom-button custom-button-primary mr-4 bg-gray-900"
           >
             Ver mi Portafolio
           </Link>
           <Link
             to="/contacto"
-            className="btn-secondary hover:bg-gray-600 hover:text-white rounded-full transition duration-300 ease-in-out"
+            className="custom-button custom-button-secondary"
           >
             Contactarme
           </Link>

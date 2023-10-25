@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import Diego from "../img/diego.jpg";
 function Navbar() {
   return (
-    <nav className="bg-gray-800 p-4 max-w-[85rem] w-full mx-auto px-4 md:px-6 lg:px-8">
+    <nav className="bg-gray-900 p-4 max-w-[85rem] w-full mx-auto px-4 md:px-6 lg:px-8">
       <div className="container mx-auto flex justify-between items-center">
         <div className="flex items-center">
           <Link to="/">

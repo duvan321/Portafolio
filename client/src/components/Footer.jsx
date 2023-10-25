@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <footer className="bg-gray-800 text-white p-4 text-center">
+    <footer className="bg-gray-900 text-white p-4 text-center">
       <div className="flex justify-center">
         <a
           rel="noopener noreferrer"
