@@ -1,17 +1,26 @@
 const {
   getPortafolio,
   contactoFormulario,
+  getPortafolioId,
 } = require("../controller.js/get.portafolio");
 
 const portafolioHandler = async (req, res) => {
   try {
-    const newDriver = await getPortafolio();
-    res.status(200).json(newDriver);
+    const newPortafolio = await getPortafolio();
+    res.status(200).json(newPortafolio);
   } catch (error) {
     res.status(400).json({ error: error.message });
   }
 };
-
+const portafolioHandlerId = async (req, res) => {
+  const { id } = req.params;
+  try {
+    const newPort = await getPortafolioId(id);
+    res.status(200).json(newPort);
+  } catch (error) {
+    res.status(400).json({ error: error.message });
+  }
+};
 const contacto = async (req, res) => {
   try {
     const correo = await contactoFormulario(req.body);
@@ -24,4 +33,5 @@ const contacto = async (req, res) => {
 module.exports = {
   portafolioHandler,
   contacto,
+  portafolioHandlerId,
 };

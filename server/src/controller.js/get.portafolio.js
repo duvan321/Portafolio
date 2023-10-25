@@ -6,6 +6,10 @@ const getPortafolio = async () => {
   const response = await axios.get("http://localhost:5000/portafolio");
   return response.data;
 };
+const getPortafolioId = async (id) => {
+  const response = await axios.get(`http://localhost:5000/portafolio/${id}`);
+  return response.data;
+};
 const contactoFormulario = async (body) => {
   const { nombre, correo, empresa, mensaje } = body;
   if (!nombre || !correo || !empresa || !mensaje)
@@ -19,4 +23,5 @@ const contactoFormulario = async (body) => {
   await contactoLaburos(nombre, correo, empresa, mensaje);
   return "Todo salió bien";
 };
-module.exports = { getPortafolio, contactoFormulario };
+
+module.exports = { getPortafolio, contactoFormulario, getPortafolioId };
