@@ -14,13 +14,13 @@ function Portafolio() {
 
       <div className="mt-6 grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
         {porta.map((proyecto, index) => (
-          <div key={index} className=" p-4 rounded-lg shadow">
+          <div key={index} className=" p-4 rounded-lg ">
             <Link to={`/detail/${proyecto.id}`}>
               <img
                 src={proyecto.image.imagen} // Reemplaza con la ruta a la imagen del proyecto
                 alt={proyecto.name}
                 title="Haz clic para obtener más detalles"
-                className="w-full h-40 object-cover rounded-lg transform hover:scale-110 transition-transform duration-300"
+                className="w-full h-40 object-cover rounded-lg  transform hover:scale-110 transition-transform duration-300 custom-shadow-yellow"
               />
             </Link>
             <h2 className="text-lg font-semibold mt-4">{proyecto.name}</h2>
@@ -36,7 +36,7 @@ function Portafolio() {
               <a
                 target="_blank"
                 href={proyecto.image.video} // Reemplaza con el enlace a la página del proyecto
-                className="text-yellow-400 inline-block"
+                className="text-yellow-400 inline-block "
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

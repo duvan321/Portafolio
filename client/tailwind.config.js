@@ -8,17 +8,12 @@ export default {
   ],
   theme: {
     extend: {
-      // keyframes: {
-      //   "move-up-down": {
-      //     "0%, 100%": { transform: "translateY(0)" },
-      //     "50%": { transform: "translateY(20px)" },
-      //   },
-      //   // Puedes agregar más animaciones personalizadas aquí según sea necesario
-      // },
-      // animations: {
-      //   "move-up-down": "move-up-down 2s ease-in-out infinite",
-      //   // Puedes ajustar la duración y otros atributos de animación aquí
-      // },
+      colors: {
+        primary: "#FF5733", // Agrega un color personalizado
+      },
+      fontFamily: {
+        custom: ["CustomFont", "sans"], // Agrega una fuente de texto personalizada
+      },
     },
   },
   plugins: [],

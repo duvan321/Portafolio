@@ -13,15 +13,16 @@ function Inicio() {
     "Mentalidad ágil",
     "Creatividad",
   ];
+
   return (
-    <div className="p-8s">
-      <div className=" flex flex-col md:flex-row items-center ">
+    <div className="p-8">
+      <div className="flex flex-col md:flex-row items-center">
         <div className="md:w-2/3 md:pl-4">
           <h1 className="text-4xl text-yellow-400 font-bold text-center mb-2">
             Hola!, Soy Diego Patiño 👋
           </h1>
           <h2 className="text-xl text-center">Fullstack Developer</h2>
-          <p className="mt-4 text-center  text-lg">
+          <p className="mt-4 text-center text-lg mb-6">
             Soy desarrollador web, graduado en Soy Henry, donde adquirí una
             sólida formación y experiencia en el campo de la informática. Mi
             formación se centra en el desarrollo web como Fullstack developer,
@@ -31,7 +32,7 @@ function Inicio() {
             Express.
           </p>
         </div>
-        <div className="md:w-1/3 flex justify-center items-center">
+        <div className=" md:w-1/3 ml-6  flex justify-center items-center  custom-shadow-yellow">
           <img
             src={Diego}
             alt="Tu Foto de Perfil"
@@ -41,14 +42,12 @@ function Inicio() {
       </div>
       <div>
         <div>
-          <h3 className="text-2xl text-yellow-400 font-semibold text-center">
+          <h3 className="text-2xl text-yellow-400 font-semibold text-center mt-6">
             Habilidades Clave
           </h3>
           <ul className="mt-5 grid grid-cols-1 md:grid-cols-2 gap-4">
             {habilidades.map((habilidad, index) => (
               <li key={index} className="text-center p-0">
-                {" "}
-                {/* Centrar elementos de la lista */}
                 {habilidad}
               </li>
             ))}

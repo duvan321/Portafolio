@@ -8,7 +8,7 @@ function Footer() {
           rel="noopener noreferrer"
           href="https://www.linkedin.com/in/diego-patino1996/"
           title="LinkedIn"
-          className="text-blue-500 hover:underline mr-4"
+          className="text-yellow-400 hover:underline mr-4"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -31,7 +31,7 @@ function Footer() {
           rel="noopener noreferrer"
           href="https://github.com/duvan321"
           title="GitHub"
-          className="text-blue-500 hover:underline mr-4"
+          className="text-yellow-400 hover:underline mr-4"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -52,7 +52,7 @@ function Footer() {
           rel="noopener noreferrer"
           href="mailto:diegoduvan321@gmail.com"
           title="Email"
-          className="text-blue-500 hover:underline"
+          className="text-yellow-400 hover:underline"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"

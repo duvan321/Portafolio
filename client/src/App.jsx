@@ -13,7 +13,7 @@ function App() {
   const location = useLocation();
 
   return (
-    <div className="bg-black text-white">
+    <div className="text-white font-custom">
       <Navbar />
       <Routes>
         <Route path="/" element={<Inicio />} />

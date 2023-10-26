@@ -69,7 +69,7 @@ function Contacto() {
               href="https://api.whatsapp.com/send?phone=573138401274&text=%28front-end+developer%29+Hi%2C+I+want+more+information+about+your+experience.+My+name+is%3A"
               title="telefono-whatsApp"
               target="_blank"
-              className="text-blue-500 "
+              className="text-yellow-400"
             >
               +57 3138401274
             </a>
@@ -81,7 +81,7 @@ function Contacto() {
               href="mailto:diegoduvan321@gmail.com"
               title="Email"
               target="_blank"
-              className="text-blue-500 "
+              className="text-yellow-400"
             >
               Correo electrónico
             </a>
@@ -93,7 +93,7 @@ function Contacto() {
               href="https://www.linkedin.com/in/diego-patino1996/"
               title="LinkedIn"
               target="_blank"
-              className="text-blue-500"
+              className="text-yellow-400"
             >
               Mi Perfil de LinkedIn
             </a>
@@ -105,7 +105,7 @@ function Contacto() {
               href="https://github.com/duvan321"
               title="GitHub"
               target="_blank"
-              className="text-blue-500"
+              className="text-yellow-400"
             >
               Mi Perfil de GitHub
             </a>
@@ -113,10 +113,10 @@ function Contacto() {
           <p className="mt-3">
             <span className="font-semibold">Currículum:</span>{" "}
             <a
-              href="/Diego Patiño cv (2).pdf"
-              download="Diego Patiño cv (2).pdf"
+              href="/Diego Patino cv (2).pdf"
+              download="Diego Patino cv (2).pdf"
               target="_blank"
-              className="text-blue-500"
+              className="text-yellow-400"
             >
               Descargar mi Currículum
             </a>
@@ -140,7 +140,7 @@ function Contacto() {
             </h2> */}
 
               <form onSubmit={handleSubmit}>
-                <div className="grid gap-4 lg:gap-6">
+                <div className="grid gap-4 lg:gap-6 text-black">
                   {/* <!-- Grid --> */}
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 lg:gap-6">
                     <div className="relative">
@@ -153,7 +153,7 @@ function Contacto() {
                         name="nombre"
                         id="nombre"
                         value={formData.nombre}
-                        className="py-3 px-4 block w-full border-gray-200 rounded-md text-sm focus:border-blue-500 focus:ring-blue-500"
+                        className="border py-3 px-4 block w-full rounded-md text-sm outline-none focus:ring-2 focus:ring-offset-2 focus:border-yellow-600 focus:ring-yellow-600 focus:box-shadow:0 0 5px rgba(59, 130, 246, 0.5);"
                       />
 
                       <div
@@ -193,7 +193,7 @@ function Contacto() {
                         name="correo"
                         id="correo"
                         value={formData.correo}
-                        className="py-3 px-4 block w-full border-gray-200 rounded-md text-sm focus:border-blue-500 focus:ring-blue-500"
+                        className="border py-3 px-4 block w-full rounded-md text-sm outline-none focus:ring-2 focus:ring-offset-2 focus:border-yellow-600 focus:ring-yellow-600 focus:box-shadow:0 0 5px rgba(59, 130, 246, 0.5);"
                       />
                       <div
                         className={`${
@@ -235,7 +235,7 @@ function Contacto() {
                         name="empresa"
                         id="empresa"
                         value={formData.empresa}
-                        className="py-3 px-4 block w-full border-gray-200 rounded-md text-sm focus:border-blue-500 focus:ring-blue-500"
+                        className="border py-3 px-4 block w-full rounded-md text-sm outline-none focus:ring-2 focus:ring-offset-2 focus:border-yellow-600 focus:ring-yellow-600 focus:box-shadow:0 0 5px rgba(59, 130, 246, 0.5);"
                       />
                       <div
                         className={`${
@@ -274,7 +274,7 @@ function Contacto() {
                       name="mensaje"
                       id="mensaje"
                       value={formData.mensaje}
-                      className="py-3 px-4 pr-9 block w-full border-gray-200 rounded-md text-sm focus:border-blue-500 focus:ring-blue-500"
+                      className="border py-3 px-4 block w-full rounded-md text-sm outline-none focus:ring-2 focus:ring-offset-2 focus:border-yellow-600 focus:ring-yellow-600 focus:box-shadow:0 0 5px rgba(59, 130, 246, 0.5);"
                     />
                     <div
                       className={`${
