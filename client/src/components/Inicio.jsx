@@ -5,13 +5,13 @@ import { CSSTransition } from "react-transition-group";
 
 function Inicio() {
   const habilidades = [
-    "Empatía",
-    "Dedicación",
-    "Autónomo",
-    "Comunicativo",
     "Liderazgo",
-    "Mentalidad ágil",
-    "Creatividad",
+    "Empatía",
+    "Trabajo en equipo",
+    "Comunicación efectiva",
+    "Resolución de conflictos",
+    "Adaptabilidad",
+    "Pensamiento crítico",
   ];
 
   return (
@@ -43,7 +43,7 @@ function Inicio() {
       <div>
         <div>
           <h3 className="text-2xl text-yellow-400 font-semibold text-center mt-6">
-            Habilidades Clave
+            Habilidades Blandas
           </h3>
           <ul className="mt-5 grid grid-cols-1 md:grid-cols-2 gap-4">
             {habilidades.map((habilidad, index) => (

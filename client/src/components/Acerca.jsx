@@ -55,15 +55,6 @@ function AcercaDeMi() {
           de flujos de trabajo.
         </p>
       </div>
-
-      <div className="mt-6">
-        <h2 className="text-2xl font-semibold">Valores</h2>
-        <p className="mt-2">
-          Mis valores incluyen "Empatía", "Dedicación", "Autónomo",
-          "Comunicativo", "Liderazgo", "Mentalidad ágil", "Creatividad", y esto
-          me motivan en mi carrera como desarrollador.
-        </p>
-      </div>
     </div>
   );
 }

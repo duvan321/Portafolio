@@ -81,3 +81,98 @@ body {
   box-shadow: 0 0 40px rgba(252, 211, 77, 0.5);
   /* Ajusta el color y la intensidad de la sombra aquí */
 }
+/* styles.css */
+.boton {
+  display: inline-block;
+  text-align: center;
+  border: 2px solid transparent;
+  border-radius: 999px;
+  transition: background-color 0.3s, color 0.3s;
+  font-weight: bold;
+  cursor: pointer;
+  min-width: 150px; /* Ancho mínimo de tus botones */
+}
+.navbar {
+  padding: 1rem;
+  position: relative;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  padding: 0;
+}
+
+/* Agrega estilos para tus enlaces */
+.nav-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  /* Agrega otros estilos según tus necesidades */
+}
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 2.25rem;
+  height: 2rem;
+  margin-left: auto;
+}
+.botone1,
+.botone2,
+.botone3 {
+  position: absolute;
+  top: 1.7em;
+  background-color: #cda11d;
+  color: #fff;
+  border-color: rgba(252, 211, 77, 0.5);
+}
+.menu span {
+  height: 0.4rem;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 0.2rem;
+}
+.boton:hover {
+  background-color: rgba(10, 27, 55, 0.5);
+  color: #ffc107; /* Cambia el color de texto al pasar el cursor */
+}
+@media (max-width: 768px) {
+  .botone1 {
+    position: absolute;
+    top: 2em;
+    left: 8em;
+  }
+
+  .botone2 {
+    position: absolute;
+    top: 4.1em;
+    left: 8em;
+  }
+
+  .botone3 {
+    position: absolute;
+    top: 6.2em;
+    left: 8em;
+  }
+  nav .menu {
+    display: flex;
+    margin-top: 0;
+    position: absolute;
+    top: 2em;
+    right: 0;
+  }
+
+  nav ul {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 3rem; /* Ajusta la posición superior según tus necesidades */
+    border-radius: 0.25rem;
+  }
+  nav ul.open {
+    display: flex;
+  }
+}
