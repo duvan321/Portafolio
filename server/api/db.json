@@ -30,7 +30,7 @@
         "name":"Rick and morty",
          "descripcion":"En esta aplicación que he creado, tienes la tarea de registrarte e iniciar sesión con un formulario que te lleva a una vista donde puedes buscar por ID a los personajes de Rick and Morty. También puedes seleccionar favoritos y mostrarlos en una vista de favoritos, así como eliminarlos. Además, tienes la opción de buscar personajes al azar y filtrar por ID y género.",
          "image":{
-             "url":"#",
+             "url":"https://rick-roan.vercel.app/",
              "imagen":"https://www.xtrafondos.com/wallpapers/resized/rick-y-morty-escapando-de-portal-9235.jpg?s=large",
              "gitHub":"https://github.com/duvan321/RICK",
                "video":"#"
