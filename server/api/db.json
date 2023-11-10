@@ -33,7 +33,7 @@
              "url":"https://rick-roan.vercel.app/",
              "imagen":"https://www.xtrafondos.com/wallpapers/resized/rick-y-morty-escapando-de-portal-9235.jpg?s=large",
              "gitHub":"https://github.com/duvan321/RICK",
-               "video":"#"
+               "video":"https://youtu.be/4BGDRYrjXqs"
          }
        
     },
@@ -85,6 +85,19 @@
 
          }
        
+    },
+     {
+        "id":8,
+        "name":"Piedra papel tijera",
+         "descripcion":"He creado este juego de Piedra, Papel y Tijera mientras aprendía JavaScript, utilizando funciones, eventos y variables. Espero que les guste. Algunas de las propiedades de JavaScript que utilicé incluyen: addEventListener, document.getElementById, declaraciones de variables con let y const, la propiedad disabled para botones, estructuras condicionales como switch e if-else. ¡Y muchas otras más!",
+         "image":{
+             "url":"https://duvan321.github.io/piedra-papel-tijera/",
+             "imagen":"https://dbdzm869oupei.cloudfront.net/img/alfombretaratoli/preview/40906.png",
+             "gitHub":"https://github.com/duvan321/piedra-papel-tijera",
+             "video":"https://youtu.be/J4RoEVvNJvc"
+
+         }
+        
     }
 
 ]

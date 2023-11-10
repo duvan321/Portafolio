@@ -26,10 +26,9 @@ function Inicio() {
             Soy desarrollador web, graduado en Soy Henry, donde adquirí una
             sólida formación y experiencia en el campo de la informática. Mi
             formación se centra en el desarrollo web como Fullstack developer,
-            con un profundo conocimiento en tecnologías clave como HTML, CSS,
-            Javascript, Vite, React, Redux, Node.js, Sequelize, PostgreSQL, SQL,
-            Visual Studio, Git, Cloudinary Bootstrap, Tailwind Postman y
-            Express.
+            con un profundo conocimiento en tecnologías clave como Node.js, SQL,
+            Sequelize, Express, PostgreSQL, React, Redux, Javascript, Bootstrap
+            y Git - Hub
           </p>
         </div>
         <div className=" md:w-1/3 ml-6  flex justify-center items-center  custom-shadow-yellow">
