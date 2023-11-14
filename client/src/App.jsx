@@ -8,7 +8,7 @@ import Portafolio from "./components/Portafolio";
 import Contacto from "./components/Contacto";
 import DetailPorta from "./components/DetailPorta";
 import axios from "axios";
-axios.defaults.baseURL = "https://portafolio-production-2d78.up.railway.app/";
+axios.defaults.baseURL = "https://portafolio-production-df2a.up.railway.app/";
 function App() {
   const location = useLocation();
 
