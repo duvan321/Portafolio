@@ -23,12 +23,14 @@ function Inicio() {
           </h1>
           <h2 className="text-xl text-center">Fullstack Developer</h2>
           <p className="mt-4 text-center text-lg mb-6">
-            Soy desarrollador web, graduado en Soy Henry, donde adquirí una
-            sólida formación y experiencia en el campo de la informática. Mi
-            formación se centra en el desarrollo web como Fullstack developer,
-            con un profundo conocimiento en tecnologías clave como Node.js, SQL,
-            Sequelize, Express, PostgreSQL, React, Redux, Javascript, Bootstrap
-            y Git - Hub
+            Full Stack developer con experiencia en NodeJS, SQL, Sequelize,
+            PostgreSQL, Express, React, Redux, JavaScript, Bootstrap y GitHub;
+            lo cual me ha permitido desarrollar proyectos desde el front-end y
+            back-end. Durante mi experiencia he llevado a cabo el desarrollo de
+            productos bajo metodologías ágiles (Scrum), los cuales me
+            permitieron desarrollar skills orientados a la resolución de
+            problemas, creatividad, dominio de diversos lenguajes de
+            programación y diseño responsivo.
           </p>
         </div>
         <div className=" md:w-1/3 ml-6  flex justify-center items-center  custom-shadow-yellow">
