@@ -113,8 +113,8 @@ function Contacto() {
           <p className="mt-3">
             <span className="font-semibold">Currículum:</span>{" "}
             <a
-              href="/DUVAN DIEGO PATIÑO MONROY.docx"
-              download="DUVAN DIEGO PATIÑO MONROY.docx"
+              href="/DUVAN DIEGO PATIÑO MONROY.pdf"
+              download="DUVAN DIEGO PATIÑO MONROY.pdf"
               target="_blank"
               className="text-yellow-400"
             >
