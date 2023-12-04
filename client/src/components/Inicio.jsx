@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Diego from "../img/Imagen4.gif";
-import { CSSTransition } from "react-transition-group";
 
 function Inicio() {
   const habilidades = [

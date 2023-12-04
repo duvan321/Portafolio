@@ -8,12 +8,12 @@ import Portafolio from "./components/Portafolio";
 import Contacto from "./components/Contacto";
 import DetailPorta from "./components/DetailPorta";
 import axios from "axios";
+import ParticlesBackground from "./components/particlesBackground";
 axios.defaults.baseURL = "https://portafolio-production-df2a.up.railway.app/";
 function App() {
-  const location = useLocation();
-
   return (
     <div className="text-white font-custom">
+      <ParticlesBackground />
       <Navbar />
       <Routes>
         <Route path="/" element={<Inicio />} />
