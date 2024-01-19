@@ -86,7 +86,7 @@ function Navbar() {
             <div className="message">Hola 👋, ¿en qué puedo ayudarte?</div>
           </div>
           <a
-            href="https://wa.me/573138401274?text=Explorando el infinito mundo del código y la creatividad. Cada proyecto es una oportunidad para aprender y crecer. ¿Te unes a esta fascinante travesía? ✨🚀#ProgramadorEnAcción. Me llamo:"
+            href="https://wa.me/573138401274?text=Explorando el infinito mundo del código y la creatividad. Cada proyecto es una oportunidad para aprender y crecer. ¿Te unes a esta fascinante travesía? ✨🚀 Me llamo:"
             target="_blank"
           >
             <button className="open-chat-btn">Abrir Chat</button>
