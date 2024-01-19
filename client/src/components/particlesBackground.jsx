@@ -12,14 +12,14 @@ function ParticlesBackground() {
     b: 44,
   };
   return (
-    <div>
+    <div className="particicle">
       <Particles
         id="tsparticles"
         init={particlesInit}
         options={{
           fullScreen: {
             enable: true,
-            zIndex: 1,
+            zIndex: 0,
           },
           particles: {
             number: {

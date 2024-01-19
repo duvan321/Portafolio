@@ -299,4 +299,7 @@ body {
     top: 10em;
     left: 16rem;
   }
+  .particicle {
+    display: none;
+  }
 }
