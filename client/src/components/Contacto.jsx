@@ -66,7 +66,6 @@ function Contacto() {
             <span className="font-semibold">Telefono:</span>{" "}
             <a
               rel="noopener noreferrer"
-              href="https://api.whatsapp.com/send?phone=573138401274&text=%28front-end+developer%29+Hi%2C+I+want+more+information+about+your+experience.+My+name+is%3A"
               title="telefono-whatsApp"
               target="_blank"
               className="text-yellow-400"

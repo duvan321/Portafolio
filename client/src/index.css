@@ -140,6 +140,118 @@ body {
   background-color: rgba(10, 27, 55, 0.5);
   color: #ffc107; /* Cambia el color de texto al pasar el cursor */
 }
+.washaptFather {
+  position: fixed;
+  z-index: 999;
+
+  border: 1px solid #fff;
+  border-radius: 50%;
+  bottom: 20px;
+  right: 20px;
+  padding: 2px;
+  transition: ease 0.3s;
+  animation: efecto 1.2s infinite;
+}
+.washaptFather:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+.washapt {
+  width: 50px;
+  transition: ease 1s;
+}
+.whatsapp-container {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 17px;
+  width: 400px;
+  height: 240px;
+  margin: 50px auto;
+  text-align: center;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  box-shadow: 2px 2px 2px 2px #333;
+  z-index: 999;
+}
+
+.header {
+  background-color: #25d366;
+  color: #fff;
+  padding: 2em;
+  border-bottom: 1px solid #ccc;
+  border-radius: 15px 15px 0 0;
+  position: relative;
+}
+
+.header img {
+  position: absolute;
+  width: 40px;
+  left: 10px;
+  top: 10px;
+}
+
+.whatsapp-text {
+  position: absolute;
+  font-weight: bold;
+  left: 4em;
+  top: 20px;
+}
+.xl {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background-color: #908e8e;
+  border-radius: 50%;
+  right: 10px;
+  top: 15px;
+}
+.xl:hover {
+  background-color: #333;
+}
+.x {
+  position: absolute;
+  right: 14px;
+  bottom: 4px;
+  font-size: 25px;
+  cursor: pointer;
+}
+.message-container {
+  padding: 10px;
+}
+
+.message {
+  background-color: #dcf8c6;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: left;
+  color: #969393;
+}
+
+.sender {
+  font-weight: bold;
+}
+
+.open-chat-btn {
+  position: absolute;
+  background-color: #25d366;
+  color: #fff;
+  border: none;
+  padding: 13px;
+  border-radius: 15px;
+  cursor: pointer;
+  top: 11em;
+  left: 18rem;
+}
+@keyframes efecto {
+  0% {
+    box-shadow: 0 0 0 0 rgba(54, 152, 43, 0.85);
+  }
+  100% {
+    box-shadow: 0 0 0 25px rgba(54, 152, 43, 0);
+  }
+}
+
 @media (max-width: 768px) {
   .botone1 {
     position: absolute;
@@ -175,5 +287,16 @@ body {
   }
   nav ul.open {
     display: flex;
+  }
+  .whatsapp-container {
+    width: 350px;
+    height: 240px;
+  }
+  .open-chat-btn {
+    padding: 8px;
+    border-radius: 15px;
+    width: 80px;
+    top: 10em;
+    left: 16rem;
   }
 }
