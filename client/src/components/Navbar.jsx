@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Diego from "../img/diego.jpg";
-import washapt from "../img/imagen1.png";
+import washapt from "../img/Imagen1.png";
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [isWhatsappVisible, setIsWhatsappVisible] = useState(false);
