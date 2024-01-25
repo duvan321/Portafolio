@@ -4,7 +4,6 @@ import Diego from "../img/Imagen4.gif";
 
 function Inicio() {
   const habilidades = [
-    "Liderazgo",
     "Empatía",
     "Trabajo en equipo",
     "Comunicación efectiva",
