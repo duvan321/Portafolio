@@ -1,13 +1,19 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { getPortafolio } from "../redux/action";
 import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 function Portafolio() {
   const porta = useSelector((state) => state.portafolio);
   const dispatch = useDispatch();
+  const [loading, setLoading] = useState(true);
+
   useEffect(() => {
-    dispatch(getPortafolio());
-  }, []);
+    dispatch(getPortafolio()).then(() => setLoading(false)); // Marca la carga como completa una vez que se obtienen los datos
+  }, [dispatch]);
+
+  if (loading) {
+    return <div>Cargando datos...</div>; // Muestra un mensaje de carga mientras se obtienen los datos
+  }
   return (
     <div className="p-8">
       <h1 className="text-3xl font-bold">Portafolio</h1>

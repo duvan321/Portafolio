@@ -11,9 +11,9 @@ export default {
       colors: {
         primary: "#FF5733", // Agrega un color personalizado
       },
-      fontFamily: {
-        custom: ["CustomFont", "sans"], // Agrega una fuente de texto personalizada
-      },
+      // fontFamily: {
+      //   custom: ["CustomFont", "sans"], // Agrega una fuente de texto personalizada
+      // },
     },
   },
   plugins: [],

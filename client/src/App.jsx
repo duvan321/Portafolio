@@ -9,7 +9,7 @@ import Contacto from "./components/Contacto";
 import DetailPorta from "./components/DetailPorta";
 import axios from "axios";
 import ParticlesBackground from "./components/particlesBackground";
-axios.defaults.baseURL = "https://portafolio-production-df2a.up.railway.app/";
+// axios.defaults.baseURL = "https://portafolio-production-df2a.up.railway.app/";
 function App() {
   return (
     <div className="text-white font-custom">

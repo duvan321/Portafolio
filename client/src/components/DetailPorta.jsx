@@ -1,24 +1,19 @@
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import axios from "axios";
-
+import datas from "../../public/db.json";
 const Detail = () => {
   const { id } = useParams();
   const [porTDetails, setporTDetails] = useState({});
 
   useEffect(() => {
-    axios(`/portafolio/${id}`)
-      .then(({ data }) => {
-        if (data.name) {
-          setporTDetails(data);
-        } else {
-          window.alert("No se encontraron datos para ese ID");
-        }
-      })
-      .catch((error) => {
-        console.error("Error al cargar detalles:", error);
-        window.alert("Ocurrió un error al cargar los detalles.");
-      });
+    // Busca el proyecto con el ID correspondiente en el array de proyectos
+    const data = datas.portafolio.find((item) => item.id === parseInt(id));
+    if (data) {
+      setporTDetails(data);
+    } else {
+      window.alert("No se encontraron datos para ese ID");
+    }
   }, [id]);
 
   return (
