@@ -7,7 +7,7 @@ import AcercaDeMi from "./components/Acerca";
 import Portafolio from "./components/Portafolio";
 import Contacto from "./components/Contacto";
 import DetailPorta from "./components/DetailPorta";
-import axios from "axios";
+// import axios from "axios";
 import ParticlesBackground from "./components/particlesBackground";
 // axios.defaults.baseURL = "https://portafolio-production-df2a.up.railway.app/";
 function App() {
